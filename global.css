@@ -146,6 +146,7 @@ p {
   font-style: italic;
   text-align: justify;
   text-justify: inter-word;
+  margin-top: 4%;
   
 }
 
@@ -157,8 +158,8 @@ p {
 -----------------------------------------------*/
 @media only screen and (max-width: 768px) {
   
-/* .nav{
-  height: 100px;
+/* main{
+  height: 200%;
 } */
 
 .nav_list{
@@ -187,6 +188,7 @@ p {
  .news{
    display: flex;
    flex-direction: column;
+   height: 155%;
  }
 
  .entry{
@@ -194,8 +196,11 @@ p {
  }
   
 .footer{
-  margin-top: 210%;
+  height: 25%;
+  
 }
+
+
   
 }
 
