@@ -6,8 +6,6 @@ $(document).ready(function(){
   // var generatedHTML = compiledTemplate(newsData)
 
 	$.getJSON('release.json', function(json) {
-    console.log(json.releases[0])
-    console.log(json.releases[1])
     var data = template(json);
 		$('.news').html(data);
   });
